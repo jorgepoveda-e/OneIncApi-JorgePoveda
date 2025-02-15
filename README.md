@@ -1,5 +1,5 @@
 ﻿
-#### Key Principles:
+#### Architecture
 1. **Dependency Rule**:  
    Outer layers depend on inner layers (Presentation → Services (Application) → Domain ← Infrastructure).
 2. **Decoupled Components**:  
@@ -19,7 +19,7 @@
 | **Global Exception Handling**     | Centralized error handling middleware                                      |
 | **Parameterized Queries**         | SQL injection prevention                                                   |
 | **Async/Await**                   | Non-blocking database operations                                           |
-| **Unit/Integration Tests**        | 85%+ test coverage with NUnit and Moq                                      |
+| **Unit/Integration Tests**        | test coverage with NUnit and Moq                                      |
 
 ### Excluded (Per Requirements)
 - HTTPS
